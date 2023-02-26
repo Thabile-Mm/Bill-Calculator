@@ -1,0 +1,95 @@
+* {
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+body {
+    background-color: #8990ec;
+}
+
+.wrapper {
+    height: 430px;
+    width: 360px;
+    color: white;
+    background: #272639;
+    border-radius: 1rem;
+    padding: 1.2rem;
+    margin: 100px auto;
+    font-size: 1.3rem;
+    
+}
+
+.headd {
+    padding: 5px 15px 35px 40px;
+    font-size: 3rem;
+    padding-bottom: 20px;
+    color: rgba(245, 245, 245, 0.788)
+}
+
+.container {
+    padding-bottom: 25px;
+}
+
+.title {
+    padding-bottom: 7px;
+}
+
+.inputContainer {
+    background-color: #42405a;
+    border-radius: 10px;
+}
+
+.inputContainer span {
+    padding-left: 5px;
+    margin: 5px;
+}
+/*inher*/
+.inputContainer input {
+    background-color: #42405a;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+}
+
+.buttonContainer {
+    font-size: 2rem;
+}
+
+.buttonText {
+    padding: 5px 5px 4px 4px;
+}
+.slipButton {
+    background-color: #8990ec;
+    border-radius: 15px;
+    border: none;
+    font-size: 1.3rem;
+}
+
+#buttom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.totalContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.total {
+    font-size: 1.5rem;
+}
+
+.youContainer {
+    padding-left: 30%;
+    padding-top: 10%;
+}
+
+.title {
+    color: rgba(245, 245, 245, 0.788)
+    
+}
+
+.tip {
+    padding-left: 1.5%;
+}
